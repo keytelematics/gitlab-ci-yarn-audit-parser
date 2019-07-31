@@ -1,0 +1,25 @@
+{
+  "name": "gitlab-ci-yarn-audit-parser",
+  "version": "1.0.0",
+  "description": "Yarn Audit parser for GitLab dependency scanning",
+  "bin": "parse.js",
+  "main": "parse.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mgibeau/gitlab-ci-yarn-audit-parser.git"
+  },
+  "keywords": [
+    "gitlab"
+  ],
+  "author": "Maxime Gibeau",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.18.0"
+  }
+}
